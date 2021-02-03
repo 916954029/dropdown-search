@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>dropdown search</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/dropdownsearch.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/dropdownsearch.js"></script>
+    <style type="text/css">
+        .demo {
+            width: 500px;
+            height: auto;
+            margin: 168px auto;
+        }
+    </style>
+</head>
+
+<body>
+<div class="demo">
+    <div class="searchBox">
+        <input name="foobar_id" type="hidden" id="searchId">
+        <input class="form-control" name="foobar_name" type="text"
+               id="searchKw" placeholder="请输入关键字">
+        <button class="btn btn-success btn-xs" type="button" id="searchButton"
+                data-url="url for search">搜索
+        </button>
+        <div class="searchCandidates hidden" id="searchCandidates">
+            <ul class="list-unstyled"></ul>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

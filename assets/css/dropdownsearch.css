@@ -1,0 +1,35 @@
+.searchBox {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+#searchKw {
+    width: 300px;
+}
+
+#searchButton {
+    position: absolute;
+    right: 4px;
+}
+
+.searchCandidates {
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 99;
+    width: 300px;
+    height: 210px;
+    border: 1px solid #e5e5e5;
+    overflow: scroll;
+    top: 36px;
+}
+
+.searchCandidates ul li {
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.searchCandidates ul li:hover {
+    color: #ffffff;
+    background-color: #006FC4;
+}
