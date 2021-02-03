@@ -1,5 +1,7 @@
 ## 简易关键字搜索并展示下拉候选列表插件
 
+![示例图片](https://github.com/916954029/dropdown-search/raw/main/dropdown-search-demo.png)
+
 **使用流程**
 
 1. 克隆项目
