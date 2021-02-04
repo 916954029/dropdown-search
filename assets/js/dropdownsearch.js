@@ -89,9 +89,11 @@ $(function () {
     });
 
     /**
-     * 定义关键字输入框的聚焦事件
+     * 定义关键字输入框的用户输入、值变化和聚焦事件
      */
-    $('#searchKw').focus(function () {
+    $('#searchKw').bind('input change', function () {
+        $('#searchId').val(0)
+    }).bing('focus', function () {
         hideCandidates()
     });
 });
